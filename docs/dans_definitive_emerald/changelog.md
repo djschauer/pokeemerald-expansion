@@ -58,3 +58,5 @@ Changes:
 - Move Rearrangement in battle allowed
 
 Reasoning: The intention with these changes was to maintain balance as much as possible, while allowing for updates that make sense or particularly with Catch rate, interface, and things like Last Ball and Move Description.
+
+### Successful Build
