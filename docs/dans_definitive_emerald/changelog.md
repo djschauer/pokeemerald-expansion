@@ -60,3 +60,24 @@ Changes:
 Reasoning: The intention with these changes was to maintain balance as much as possible, while allowing for updates that make sense or particularly with Catch rate, interface, and things like Last Ball and Move Description.
 
 ### Successful Build
+
+## 2026-07-06
+
+### Reverts and Updated Items and Fishing
+
+Changes:
+- Reverted Pokemon Sprites and Animations to Original Emerald (May revisit this later, some new Sprites I liked others I didn't)
+- Fixed the Mist weather setting, accidentally left that on.
+- Reverted the KO and Pokeball Animations (again, some I liked and some I did not, may revist later)
+- Added Infinite TMs
+- Fixed Nature Power to use Gen 3 options
+- Set fishing mechanics to be Gen 3
+- Made Escape Rope a Key Item
+- Set EXP Share to be Gen 6 style, toggleable Key Item that gives XP to the whole party
+- Vitamins can go over 100 EV Cap
+- Held Items like Charcoal that boost types were set to their more modern 1.2 boost (may revisit if this throws off balance too much)
+- Most other Item setting retained their Gen 3 Mechanics
+
+Reasoning: The reversions were based off of playtesting the latest build and the game just not looking like Emerald in Battle at times, specifically Nosepass and Lombre threw me off. Although some of the sprites I really did like, but this first iteration I want the OG look. Infinite TMs is just a must for me, as well as the modern exp share saving on grinding. The rest were easy choices for maintaining Gen 3 feel.
+
+### Successfuly Build
