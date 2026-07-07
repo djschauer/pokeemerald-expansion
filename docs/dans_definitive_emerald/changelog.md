@@ -81,3 +81,24 @@ Changes:
 Reasoning: The reversions were based off of playtesting the latest build and the game just not looking like Emerald in Battle at times, specifically Nosepass and Lombre threw me off. Although some of the sprites I really did like, but this first iteration I want the OG look. Infinite TMs is just a must for me, as well as the modern exp share saving on grinding. The rest were easy choices for maintaining Gen 3 feel.
 
 ### Successfuly Build
+
+## 2026-07-07
+
+### Primarily overworld.h
+
+Changes:
+- Running Indoors was left Enabled (big QoL)
+- Whiteout cutscene where pokemon are healed enabled
+- Move Tutors let you pick from PC and Party not just Lead pokemon
+- Left all the Berry stuff alone
+- Chose to forego Follower Pokemon for now, will update on a separate branch so that I don't bork anything (did enable weather forms for Castform as followers)
+- Set all out of Battle ability effects to Gen 3 (may revisit later, some of these seem cool)
+- Pokedex plus left disabled
+- Updated Pokerus to show on Eggs, which is Emerald behavior
+- Added IVs/EVs to the summary screen
+- IVs are displayed as letters, which I think is aesthetically pleasing (may revisit later and expose the actual numbers)
+- Moves can be relearned via the summary screen rather than requiring a trip back to Fallarbor (May revisit later)
+- Allowed Pokemon to relearn moves from Previous evolutions
+
+
+investigate : Better HMs in the field, Berry eat animation, infinite bag, Trade evos

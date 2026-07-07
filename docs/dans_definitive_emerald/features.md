@@ -2,9 +2,9 @@
 
 ## Core Enhancements
 - [x] Indoor Running
-- [ ] Reusable TMs
+- [X] Reusable TMs
 - [ ] HM Quality of Life
-- [ ] Modern XP Share
+- [X] Modern XP Share
 - [ ] Trade Evolutions Accesible
 - [ ] 
 - [ ]
@@ -13,16 +13,16 @@
 - [ ]
 
 ## Pokedex
-- [ ] Disable Gen 4-9
-- [ ] Disable Regional Forms
-- [ ] Disable Mega Evolutions
-- [ ] Disable Terastallization
-- [ ] Disable Cross-Gen Evolutions
+- [X] Disable Gen 4-9
+- [X] Disable Regional Forms
+- [X] Disable Mega Evolutions
+- [X] Disable Terastallization
+- [X] Disable Cross-Gen Evolutions
 - [ ] All Hoenn Dex Obtainable Before Endgame
 - [ ] Full Hoenn National Dex obtainable after Elite Four
 
 ## Battle Changes
-- [ ] Move Info in Battle
+- [X] Move Info in Battle
 - [ ]
 - [ ]
 - [ ]

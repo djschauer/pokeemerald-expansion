@@ -61,7 +61,7 @@
 #define OW_FOLLOWERS_ENABLED           FALSE      // Enables follower Pokémon, HGSS style. Requires OW_POKEMON_OBJECT_EVENTS. Note that additional scripting may be required for them to be fully supported!
 #define OW_FOLLOWERS_BOBBING           TRUE       // If TRUE, follower Pokémon will bob up and down during their idle & walking animations
 #define OW_FOLLOWERS_POKEBALLS         TRUE       // If TRUE, follower Pokémon will emerge from the Poké Ball they are stored in, instead of a normal Poké Ball
-#define OW_FOLLOWERS_WEATHER_FORMS     FALSE      // If TRUE, Castform and Cherrim gain FORM_CHANGE_OVERWORLD_WEATHER, which will make them transform in the overworld based on the weather.
+#define OW_FOLLOWERS_WEATHER_FORMS     TRUE      // If TRUE, Castform and Cherrim gain FORM_CHANGE_OVERWORLD_WEATHER, which will make them transform in the overworld based on the weather.
 #define OW_FOLLOWERS_COPY_WILD_PKMN    FALSE      // If TRUE, follower Pokémon that know Transform or have Illusion/Imposter will copy wild Pokémon at random.
 #define OW_BATTLE_ONLY_FORMS           TRUE       // If TRUE, loads overworld sprites for battle-only forms like Mega Evos. Requires OW_POKEMON_OBJECT_EVENTS.
 #define B_FLAG_FOLLOWERS_DISABLED      0          // Enables / Disables followers by using a flag. Helpful to disable followers for a period of time.
@@ -74,15 +74,15 @@
 #define OW_FOLLOWERS_ALLOWED_MET_LOC (0)
 
 // Out-of-battle Ability effects
-#define OW_SYNCHRONIZE_NATURE       GEN_LATEST // In Gen8+, if a Pokémon with Synchronize leads the party, wild Pokémon will always have their same Nature as opposed to the 50% chance in previous games. Gift Pokémon excluded.
+#define OW_SYNCHRONIZE_NATURE       GEN_3 // In Gen8+, if a Pokémon with Synchronize leads the party, wild Pokémon will always have their same Nature as opposed to the 50% chance in previous games. Gift Pokémon excluded.
                                                // In USUM (here GEN_7), if a Pokémon with Synchronize leads the party, gift Pokémon will always have their same Nature regardless of their Egg Group.
                                                // In ORAS (here GEN_6), if a Pokémon with Synchronize leads the party, gift Pokémon from the No Eggs Discovered Egg Group will always have their same Nature.
-#define OW_SUPER_LUCK               GEN_LATEST // In Gen8+, if a Pokémon with Super Luck is leading the party, the wild held item rate is increased to 60%/20%.
-#define OW_INFILTRATOR              GEN_LATEST // In Gen8+, if a Pokémon with Infiltrator is leading the party, the wild encounter rate is halved.
-#define OW_HARVEST                  GEN_LATEST // In Gen8+, if a Pokémon with Harvest is leading the party, there is a 50% chance to encounter a Grass-type Pokémon.
-#define OW_LIGHTNING_ROD            GEN_LATEST // In Gen8+, if a Pokémon with Lightning Rod is leading the party, there is a 50% chance to encounter an Electric-type Pokémon.
-#define OW_STORM_DRAIN              GEN_LATEST // In Gen8+, if a Pokémon with Storm Drain is leading the party, there is a 50% chance to encounter a Water-type Pokémon.
-#define OW_FLASH_FIRE               GEN_LATEST // In Gen8+, if a Pokémon with Flash Fire is leading the party, there is a 50% chance to encounter a Fire-type Pokémon.
+#define OW_SUPER_LUCK               GEN_3 // In Gen8+, if a Pokémon with Super Luck is leading the party, the wild held item rate is increased to 60%/20%.
+#define OW_INFILTRATOR              GEN_3 // In Gen8+, if a Pokémon with Infiltrator is leading the party, the wild encounter rate is halved.
+#define OW_HARVEST                  GEN_3 // In Gen8+, if a Pokémon with Harvest is leading the party, there is a 50% chance to encounter a Grass-type Pokémon.
+#define OW_LIGHTNING_ROD            GEN_3 // In Gen8+, if a Pokémon with Lightning Rod is leading the party, there is a 50% chance to encounter an Electric-type Pokémon.
+#define OW_STORM_DRAIN              GEN_3 // In Gen8+, if a Pokémon with Storm Drain is leading the party, there is a 50% chance to encounter a Water-type Pokémon.
+#define OW_FLASH_FIRE               GEN_3 // In Gen8+, if a Pokémon with Flash Fire is leading the party, there is a 50% chance to encounter a Fire-type Pokémon.
 
 // These defines only make a distinction for OW_ALTERED_TIME_RATIO
 #define GEN_8_PLA                       GEN_COUNT + 2
@@ -137,7 +137,7 @@
                                                             // It will also cause minor visual glitches of shadow and reflection sprites adjusting their transparency when the pop-up disappear
 
 // Pokémon Center
-#define OW_IGNORE_EGGS_ON_HEAL           GEN_LATEST         // In Gen 4+, the nurse in the Pokémon Center does not heal Eggs on healing machine.
+#define OW_IGNORE_EGGS_ON_HEAL           GEN_3         // In Gen 4+, the nurse in the Pokémon Center does not heal Eggs on healing machine.
 #define OW_UNION_DISABLE_CHECK           FALSE              // When TRUE, the nurse does not inform the player if there is a trainer waiting in the Union Room. This speeds up the loading of the Pokémon Center.
 #define OW_FLAG_MOVE_UNION_ROOM_CHECK    0                  // If this flag is set, the game will only check if players are in the Union Room while healing Pokémon, and not when players enter the Pokémon Center. This speeds up the loading of the Pokémon Center. This is ignored if OW_UNION_DISABLE_CHECK is TRUE.
 
