@@ -2321,7 +2321,8 @@ bool8 ScrCmd_checkfieldmove(struct ScriptContext *ctx)
         enum Species species = GetMonData(&gParties[B_TRAINER_PLAYER][i], MON_DATA_SPECIES);
         if (!species)
             break;
-        if (!GetMonData(&gParties[B_TRAINER_PLAYER][i], MON_DATA_IS_EGG) && MonKnowsMove(&gParties[B_TRAINER_PLAYER][i], move) == TRUE)
+        //Changed this implementation to check if the mon can learn the move instead of checking if it knows it.
+        if (!GetMonData(&gParties[B_TRAINER_PLAYER][i], MON_DATA_IS_EGG) && CanLearnTeachableMove(species, move) == TRUE)
         {
             gSpecialVar_Result = i;
             gSpecialVar_0x8004 = species;
@@ -2331,6 +2332,8 @@ bool8 ScrCmd_checkfieldmove(struct ScriptContext *ctx)
 
     return FALSE;
 }
+
+//Storing this here while I make changes, this was the original implementation for ScrCMD_Checkfirldmove: MonKnowsMove(&gParties[B_TRAINER_PLAYER][i], move) == TRUE)
 
 bool8 ScrCmd_addmoney(struct ScriptContext *ctx)
 {

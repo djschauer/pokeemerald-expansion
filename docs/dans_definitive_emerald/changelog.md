@@ -102,3 +102,14 @@ Changes:
 
 
 investigate : Better HMs in the field, Berry eat animation, infinite bag, Trade evos, both bikes, multi key item register
+
+## 2026-07-08
+
+### Updating HM Moves to function if Pokemon can learn it
+
+Changes:
+- Updated SrcCmd_checkfieldmove function to check if a pokemon can learn a move instead of if it knows the move
+- This change makes it so field moves can be used without teaching the move to a mon
+- It will only work for moves that can be used by interacting with script objects on the map (cutable tree, breakble rock, pushable rock, etc.)
+
+### Successful Build
