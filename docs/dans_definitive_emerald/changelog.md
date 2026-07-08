@@ -80,7 +80,7 @@ Changes:
 
 Reasoning: The reversions were based off of playtesting the latest build and the game just not looking like Emerald in Battle at times, specifically Nosepass and Lombre threw me off. Although some of the sprites I really did like, but this first iteration I want the OG look. Infinite TMs is just a must for me, as well as the modern exp share saving on grinding. The rest were easy choices for maintaining Gen 3 feel.
 
-### Successfuly Build
+### Successful Build
 
 ## 2026-07-07
 
@@ -101,4 +101,4 @@ Changes:
 - Allowed Pokemon to relearn moves from Previous evolutions
 
 
-investigate : Better HMs in the field, Berry eat animation, infinite bag, Trade evos
+investigate : Better HMs in the field, Berry eat animation, infinite bag, Trade evos, both bikes, multi key item register
