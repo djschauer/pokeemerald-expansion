@@ -100,9 +100,6 @@ Changes:
 - Moves can be relearned via the summary screen rather than requiring a trip back to Fallarbor (May revisit later)
 - Allowed Pokemon to relearn moves from Previous evolutions
 
-
-investigate : Better HMs in the field, Berry eat animation, infinite bag, Trade evos, both bikes, multi key item register
-
 ## 2026-07-08
 
 ### Updating HM Moves to function if Pokemon can learn it
@@ -113,3 +110,11 @@ Changes:
 - It will only work for moves that can be used by interacting with script objects on the map (cutable tree, breakble rock, pushable rock, etc.)
 
 ### Successful Build
+
+investigate : Berry eat animation, infinite bag, Trade evos, both bikes, multi key item register
+
+HMs:
+Implemeneted interaction with map objects
+TODO Implement Party menu HMs, like fly (would like the option to show regardless of if they know the move or not, this should just work from there)
+TODO Investigate surf, as that appears to have different interactions
+TODO Make sure I have covered all of the HM edge cases
